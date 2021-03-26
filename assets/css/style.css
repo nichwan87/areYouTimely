@@ -151,7 +151,13 @@
       color: goldenrod;
   }
 
-
+  .finished {
+    background-color: var(--light);
+    color: var(--darkblue);
+    border-radius: 6px 6px 20px 6px;
+    height: 5rem;
+    opacity: 93%;
+  }
 
 
 
