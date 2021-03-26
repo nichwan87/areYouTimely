@@ -23,7 +23,11 @@ function displayTime() {
       const hour = parseInt($(this).attr('id'))
       if (hour === present) {
         $(this).children('.col-sm-8').attr('class', 'present col-sm-8')
-      } else if (present > hour) {
+      }
+      else if (present == hour-1) {
+        $(this).children('.col-sm-8').attr('class', 'almost col-sm-8')
+      } 
+      else if (present > hour) {
         $(this).children('.col-sm-8').attr('class', 'past col-sm-8')
       } else {
         $(this).children('.col-sm-8').attr('class', 'future col-sm-8')
