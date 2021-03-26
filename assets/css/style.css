@@ -13,7 +13,7 @@
 
   /*Universal Selector*/
   body {
-    font-family: garmond, sans-serif;
+    font-family: garmond;
     font-weight: 300;
     background-color: var(--light);
     background-image: url(../images/DSCF0408.JPG);
@@ -34,18 +34,22 @@
 
 .display-2 {
       font-size: 35px;
+      text-decoration: underline;
+      color: var(--lightblue);
   }
 
 .lead {
     color: var(--green);
     font-size: 18px;
-    transform: rotate(2deg)
+    transform: rotate(2deg);
+    font-style: oblique;
 }
 
 .lead2 {
   color: var(--green);
   font-size: 18px;
-  transform: rotate(-2deg)
+  transform: rotate(-2deg);
+  font-style: oblique;
 }
 
 
@@ -95,9 +99,6 @@
       opacity: 93%;
   }
   
-  .taskDue:hover {
-    border: 1px outset var(--green);
-  }
 
   /*Adding classes to colour past, present, future*/
 
@@ -108,6 +109,10 @@
     border-radius: 6px 6px 20px 6px;
     height: 2.5rem;
   }
+
+  .past:hover{
+    border: 1px outset var(--dark);
+  }
   
   .present {
     background-color: var(--blue);
@@ -116,13 +121,20 @@
     border-radius: 6px 6px 20px 6px;
     height: 5rem;
   }
-  
 
+  .present:hover {
+    border: 2px inset var(--green);
+  }
+  
     .future {
      background-color: wheat;
      opacity: 50%;
      border-radius: 6px 6px 20px 6px;
      height: 3rem;
+  }
+
+  .future:hover {
+    border: 2px outset var(--red);
   }
 
   /*Setting button styling*/

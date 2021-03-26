@@ -8,7 +8,7 @@ const point = $('#point')
 
 //Sets top of page current date and time
 function displayTime() {
-    const currentPeriod = moment().format('dddd -  MMM DD, YYYY [@] HHmm a');
+    const currentPeriod = moment().format('dddd -  MMM DD, YYYY [@] HHmm A');
     timeShowEl.text(currentPeriod);
   }
   
