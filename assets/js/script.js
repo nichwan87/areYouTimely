@@ -52,7 +52,49 @@ saveBtnEl.on('click', function (event) {
     event.preventDefault();
     $('#point1').css('color', 'green');
     $('#done1').css('color', 'blue');
-    $('#1').css('text-decoration', 'line-through')
+    $('#00').css('text-decoration', 'line-through')
+  });
+
+  $('#donea').on('click', function (event) {
+    event.preventDefault();
+    $('#pointa').css('color', 'green');
+    $('#donea').css('color', 'blue');
+    $('#01').css('text-decoration', 'line-through')
+  });
+
+  $('#doneb').on('click', function (event) {
+    event.preventDefault();
+    $('#pointb').css('color', 'green');
+    $('#doneb').css('color', 'blue');
+    $('#02').css('text-decoration', 'line-through')
+  });
+
+  $('#donec').on('click', function (event) {
+    event.preventDefault();
+    $('#pointc').css('color', 'green');
+    $('#donec').css('color', 'blue');
+    $('#03').css('text-decoration', 'line-through')
+  });
+
+  $('#doned').on('click', function (event) {
+    event.preventDefault();
+    $('#pointd').css('color', 'green');
+    $('#doned').css('color', 'blue');
+    $('#04').css('text-decoration', 'line-through')
+  });
+
+  $('#donee').on('click', function (event) {
+    event.preventDefault();
+    $('#pointe').css('color', 'green');
+    $('#donee').css('color', 'blue');
+    $('#05').css('text-decoration', 'line-through')
+  });
+
+  $('#donef').on('click', function (event) {
+    event.preventDefault();
+    $('#pointf').css('color', 'green');
+    $('#donef').css('color', 'blue');
+    $('#06').css('text-decoration', 'line-through')
   });
 
   $('#done2').on('click', function (event) {

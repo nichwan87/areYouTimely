@@ -95,7 +95,9 @@
       opacity: 93%;
   }
   
-
+  .taskDue:hover {
+    border: 1px outset var(--green);
+  }
 
   /*Adding classes to colour past, present, future*/
 
@@ -103,18 +105,24 @@
     background-color: var(--dark);
     color: var(--light);
     opacity: 30%;
+    border-radius: 6px 6px 20px 6px;
+    height: 2.5rem;
   }
   
   .present {
     background-color: var(--blue);
     color: var(--green);
     border: 1px outset var(--green);
+    border-radius: 6px 6px 20px 6px;
+    height: 5rem;
   }
   
 
     .future {
      background-color: wheat;
      opacity: 50%;
+     border-radius: 6px 6px 20px 6px;
+     height: 3rem;
   }
 
   /*Setting button styling*/
