@@ -27,6 +27,10 @@ Future tasks will be slightly opaque and a meadow colour.
 
 Current tasks will be in a larger text box than the others.
 
+Any tasks that are due in the next hour will be coloured red and a green dashed border will surround them.
+
+Any overflow can be seen with the internal scroll functions or by expanding the boxes.
+
 Users may split their tasks between the segmented hour blocks (i.e. 7:00AM and 7.30AM). When the start of the hour is met (i.e. it is currently 7:00AM), the two 30 minute blocks will be highlighted in blue.
 
 ## Support
