@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <title>areYouTimely</title>
+  </head>
+
+  <body>
+    <header class="jumbotron jumbotron-fluid custom-jumbotron">
+      <h1 class="display-2">Schedule and beTimely</h1><br>
+      <p class="lead">Easy to use app -</p><br><br> <p class="lead2">so that you can say 'YES', iAmTimely</p><br>
+      <p id="now" class="lead"></p>
+    </header>
+    <div class="container">
+        <!-- Timeblocks go here -->
+        <div id='1' class="row clock">
+            <div class="col-sm-1 hour">EARLY</div>
+            <textarea class="col-sm-8 taskDue" placeholder="Schedule between Midnight and 7AM"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+        </div>
+
+        <div id='7' class="row clock">
+            <div class="col-sm-1 hour">07:00</div>
+            <textarea class="col-sm-8 taskDue2"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+        </div>
+
+        <div id='7.5' class="row clock">
+            <div class="col-sm-1 hour">07:30</div>
+            <textarea class="col-sm-8 taskDue"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+        </div>
+
+        <div id='8' class="row clock">
+            <div class="col-sm-1 hour">08:00</div>
+            <textarea class="col-sm-8 taskDue2"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+        </div>
+
+        <div id='8.5' class="row clock">
+            <div class="col-sm-1 hour">08:30</div>
+            <textarea class="col-sm-8 taskDue"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+        </div>
+
+        <div id='9' class="row clock">
+          <div class="col-sm-1 hour">09:00</div>
+          <textarea class="col-sm-8 taskDue2"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+        </div>
+
+        <div id='9.5' class="row clock">
+            <div class="col-sm-1 hour">09:30</div>
+            <textarea class="col-sm-8 taskDue"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+        </div>
+
+        <div id="10" class="row clock">
+          <div class="col-sm-1 hour">10:00</div>
+          <textarea class="col-sm-8 taskDue2"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+        </div>
+
+        <div id="10.5" class="row clock">
+            <div class="col-sm-1 hour">10.30</div>
+            <textarea class="col-sm-8 taskDue"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+          </div>
+
+        <div id="11" class="row clock">
+          <div class="col-sm-1 hour">11:00</div>
+          <textarea class="col-sm-8 taskDue2"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+        </div>
+
+        <div id="11.5" class="row clock">
+            <div class="col-sm-1 hour">11:30</div>
+            <textarea class="col-sm-8 taskDue"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+          </div>
+
+        <div id='12' class="row clock">
+          <div class="col-sm-1 hour">12:00</div>
+          <textarea class="col-sm-8 taskDue2"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+        </div>
+
+        <div id='12.5' class="row clock">
+            <div class="col-sm-1 hour">12:30</div>
+            <textarea class="col-sm-8 taskDue"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+          </div>
+
+        <div id="13" class="row clock">
+          <div class="col-sm-1 hour">13:00</div>
+          <textarea class="col-sm-8 taskDue2"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+        </div>
+
+        <div id="13.5" class="row clock">
+            <div class="col-sm-1 hour">13:30</div>
+            <textarea class="col-sm-8 taskDue"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+          </div>
+
+        <div id="14" class="row clock">
+          <div class="col-sm-1 hour">14:00</div>
+          <textarea class="col-sm-8 taskDue2"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+        </div>
+
+        <div id="14.5" class="row clock">
+            <div class="col-sm-1 hour">14:30</div>
+            <textarea class="col-sm-8 taskDue"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+          </div>
+
+        <div id="15" class="row clock">
+          <div class="col-sm-1 hour">15:00</div>
+          <textarea class="col-sm-8 taskDue2"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+        </div>
+
+        <div id="15.5" class="row clock">
+            <div class="col-sm-1 hour">15:30</div>
+            <textarea class="col-sm-8 taskDue"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+          </div>
+
+        <div id='16' class="row clock">
+          <div class="col-sm-1 hour">16:00</div>
+          <textarea class="col-sm-8 taskDue2"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+        </div>
+
+        <div id='16.5' class="row clock">
+            <div class="col-sm-1 hour">16:30</div>
+            <textarea class="col-sm-8 taskDue"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+          </div>
+
+        <div id='17' class="row clock">
+          <div class="col-sm-1 hour">17:00</div>
+          <textarea class="col-sm-8 taskDue2"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+        </div>
+
+        <div id='17.5' class="row clock">
+            <div class="col-sm-1 hour">17:30</div>
+            <textarea class="col-sm-8 taskDue"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+          </div>
+
+          <div id='18' class="row clock">
+            <div class="col-sm-1 hour">18:00</div>
+            <textarea class="col-sm-8 taskDue2"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+          </div>
+
+          <div id='18.5' class="row clock">
+            <div class="col-sm-1 hour">18:30</div>
+            <textarea class="col-sm-8 taskDue"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+            </div>
+
+            <div id='19' class="row clock">
+            <div class="col-sm-1 hour">19:00</div>
+            <textarea class="col-sm-8 taskDue2"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+            </div>
+
+            <div id='19.5' class="row clock">
+            <div class="col-sm-1 hour">19:30</div>
+            <textarea class="col-sm-8 taskDue"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+            </div>
+
+            <div id='20' class="row clock">
+            <div class="col-sm-1 hour">20:00</div>
+            <textarea class="col-sm-8 taskDue2"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+            </div>
+
+            <div id='20.5' class="row clock">
+            <div class="col-sm-1 hour">20:30</div>
+            <textarea class="col-sm-8 taskDue"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+            </div>
+
+            <div id='21' class="row clock">
+            <div class="col-sm-1 hour">21:00</div>
+            <textarea class="col-sm-8 taskDue2"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+            </div>
+
+            <div id='21.5' class="row clock">
+            <div class="col-sm-1 hour">21:30</div>
+            <textarea class="col-sm-8 taskDue"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+            </div>
+
+            <div id='22' class="row clock">
+            <div class="col-sm-1 hour">22:00</div>
+            <textarea class="col-sm-8 taskDue2"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+            </div>
+
+            <div id='22.5' class="row clock">
+            <div class="col-sm-1 hour">22:30</div>
+            <textarea class="col-sm-8 taskDue"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+            </div>
+
+            <div id='23' class="row clock">
+            <div class="col-sm-1 hour">23:00</div>
+            <textarea class="col-sm-8 taskDue2"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+            </div>
+
+            <div id='23.5' class="row clock">
+            <div class="col-sm-1 hour">23:30</div>
+            <textarea class="col-sm-8 taskDue"></textarea>
+            <button class="col-sm-1 saveBtn btn"><i class="fas fa-save fa-lg"></i></button>
+            <button class="col-sm-1 doneBtn btn"><i class="fas fa-glass-cheers fa-lg"></i></button>
+            </div>
+
+      </div>
+
+    </body>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+  </html>
