@@ -21,8 +21,6 @@ function displayTime() {
 
    time.each(function () {
       const hour = parseInt($(this).attr('id'))
-
-
       if (hour === present) {
         $(this).children('.col-sm-8').attr('class', 'present col-sm-8')
       } else if (present > hour) {
@@ -34,7 +32,19 @@ function displayTime() {
   }
   now();
 
-
+//Store saved data for schedule
+saveBtnEl.on('click', function (event) {
+    event.preventDefault();
+    function createItem() {
+        localStorage.setItem('schedule', $('.taskDue')); 
+    } 
+    createItem() 
+    
+    function getValue() {
+        return localStorage.getItem('nameOfItem');  
+    } 
+    console.log(getValue()); 
+});
 
   //setting done buttons
 
